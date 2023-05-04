@@ -1,0 +1,40 @@
+:root {
+    /* general color definitions */
+    --color-cayuse-blue: #0076B6;
+    --color-disabled-text: #ADADAD;
+    --color-muted-text: #666666;
+    --color-primary: var(--color-cayuse-blue);
+    --color-primary-light: #EFF6FD;
+    --color-secondary-active: #DDF3FF;
+
+    /* grey scale */
+    --color-lightest: #FFFFFF;
+    --color-very-light-grey: #F5F5F5;
+    --color-lighter-grey: #EEEEEE;
+    --color-light-grey: #E0E0E0;
+    --color-medium-light-grey: #D0D0D0;
+    --color-medium-grey: #CCCCCC;
+    --color-medium-dark-grey: #808080;
+    --color-dark-grey: #5E5E5E;
+    --color-very-dark-grey: #333333;
+    --color-darkest: #000000;
+
+    /* status colors */
+    --color-danger: #B31200;
+    --color-danger-light: #FFE8E6;
+    --color-info: var(--color-primary);
+    --color-info-light: var(--color-primary-light);
+    --color-success: #285D35;
+    --color-success-light: #fbfdef;
+    --color-warning: #7D3D02;
+    --color-warning-light: #FFF8D8;
+
+    /* use case variables */
+    --color-border-default: var(--color-medium-grey);
+    --color-box-shadow: rgba(39,41,43,.15); /* taken from semantic-ui's shadows */
+    --color-link: var(--color-primary);
+    --color-link-hover: #0087D0;
+    --color-table-header: var(--color-very-light-grey);
+    --color-shaded-background: var(--color-medium-light-grey);
+    --color-table-headers: #EEEEEE;
+}

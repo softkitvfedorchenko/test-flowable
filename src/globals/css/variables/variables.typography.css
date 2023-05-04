@@ -1,0 +1,16 @@
+:root {
+    --font-family-d-body: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    --font-size-d-large: 1.1429rem;         /* 16px */
+    --font-size-d-body: 14px;
+    --font-size-d-small: 0.8571rem;         /* 12px */
+    --font-size-d-xs: 0.7143rem;            /* 10px */
+
+    --font-size-icon-smallest: 0.5714rem;   /* 8px  */
+    --font-size-icon-smaller: 0.8571rem;    /* 12px */
+    --font-size-icon-medium: 1rem;          /* 14px */
+    --font-size-icon-bigger: 1.2857rem;     /* 18px */
+    --font-size-icon-huge: 2.5rem;          /* 35px */
+
+    --line-height-d-body: 1.15;           /* 16px */
+}

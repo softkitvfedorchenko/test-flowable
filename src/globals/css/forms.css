@@ -1,0 +1,24 @@
+:global(.flw__component--invalid) {
+    border: none !important;
+
+    :global(.flw__component__input.flw__select__input),
+    :global(.flw__component__input.flw__richText__input),
+    :global(.flw__date__input),
+    :global(.flw__fileSelector--empty),
+    :global(.flw__text__input) {
+        border-right: solid 3px var(--color-danger);
+    }
+}
+
+:global(.flw__error-list__error-list-item) {
+    color: var(--color-danger)
+}
+
+:global(.flw__label)::after {
+    color: var(--color-danger);
+    opacity: 1;
+}
+
+:global(.flw__panel__row) {
+    font-family: var(--font-family-d-body);
+}

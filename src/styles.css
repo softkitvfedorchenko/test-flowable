@@ -1,0 +1,7 @@
+:global(.__react_component_tooltip).globalTooltip {
+    z-index: 9998;
+}
+
+:global .App {
+    padding-bottom: 200px;
+}

@@ -1,0 +1,74 @@
+:root {
+  /* horizontal spacing */
+  --spacing-h-base: 1.0714rem; /* 15px */
+  --spacing-h-0-3x: calc(0.3333 * var(--spacing-h-base)); /* 5px */
+  --spacing-h-0-5x: calc(0.5 * var(--spacing-h-base)); /* 7.5px */
+  --spacing-h-1x: var(--spacing-h-base); /* 15px */
+  --spacing-h-2x: calc(var(--spacing-h-base) * 2); /* 30px */
+  --spacing-h-3x: calc(var(--spacing-h-base) * 3); /* 45px */
+  --spacing-h-4x: calc(var(--spacing-h-base) * 4); /* 60px */
+
+  /* vertical spacing */
+  --spacing-v-base: 0.7143rem; /* 10px */
+  --spacing-v-0-5x: calc(0.5 * var(--spacing-v-base)); /* 5px */
+  --spacing-v-1x: var(--spacing-v-base); /* 10px */
+  --spacing-v-1-5x: calc(1.5 * var(--spacing-v-base)); /* 15px */
+  --spacing-v-2x: calc(var(--spacing-v-base) * 2); /* 20px */
+  --spacing-v-3x: calc(var(--spacing-v-base) * 3); /* 30px */
+  --spacing-v-4x: calc(var(--spacing-v-base) * 4); /* 40px */
+  --spacing-v-5x: calc(var(--spacing-v-base) * 5); /* 50px */
+  --spacing-v-6x: calc(var(--spacing-v-base) * 6); /* 60px */
+  --spacing-v-7x: calc(var(--spacing-v-base) * 7); /* 70px */
+  --spacing-v-8x: calc(var(--spacing-v-base) * 8); /* 80px */
+
+  --base-padding-d: var(--spacing-h-1x); /* 15px */
+  --base-padding-m: var(--spacing-h-1x); /* 15px */
+  --vertical-spacing-normal: 1.0714rem; /* 15px */
+
+  --border-radius-default: 0.2857rem; /* 4px */
+  --border-radius-inputs: 0.1429rem; /* 2px */
+
+  --input-padding-v-d: 0.6429em; /* 9px */
+  --input-padding-h-d: 0.6429em; /* 9px */
+
+  /* z-indexes */
+  --z-index-modal: 1000;
+  --z-index-under-modal: calc(var(--z-index-modal) - 1);
+  --z-index-over-modal: calc(var(--z-index-modal) + 1);
+
+  --z-index-navbar: 10;
+  --z-index-under-navbar: calc(var(--z-index-navbar) - 1);
+  --z-index-over-navbar: calc(var(--z-index-navbar) + 1);
+
+  --z-index-taskdrawer: 20000; /* must appear above the Pendo icon, z-index 19000;
+
+    /* applied spacing */
+  --height-d-shared-header: 70px;
+  --height-d-nav: 50px;
+  --height-d-combined-header: calc(
+    var(--height-d-shared-header) + var(--height-d-nav)
+  );
+
+  --height-m-shared-header: 70px;
+  --height-m-nav: 50px;
+  --height-m-combined-header: calc(
+    var(--height-d-shared-header) + var(--height-d-nav)
+  );
+
+  --height-m-icon: 0.9em; /* dynamic, taken from semantic-ui */
+  --height-d-icon: 0.9em; /* dynamic, taken from semantic-ui */
+
+  --padding-table-header: 0.7rem 0.8rem; /* 9.8px, 11.2px */
+  --padding-table-cell: var(--spacing-v-1x) 12px;
+
+  --spacing-v-form-label: var(--spacing-v-1-5x); /* 15px */
+  --spacing-v-form-field: var(--spacing-v-2x); /* 20px */
+
+  --spacing-h-buttons: var(--spacing-h-1x); /* 15px */
+  --spacing-v-buttons: var(--spacing-v-1x); /* 10px */
+
+  --spacing-d-header-height: 120px;
+
+  --width-m-icon: 1.23em; /* dynamic, taken from semantic-ui */
+  --width-d-icon: 1.23em; /* dynamic, taken from semantic-ui */
+}

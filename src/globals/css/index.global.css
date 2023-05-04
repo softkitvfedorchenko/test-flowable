@@ -1,0 +1,70 @@
+html,
+body {
+  background-color: var(--color-very-light-grey);
+  font-family: var(--font-family-d-body);
+  line-height: var(--line-height-d-body);
+  max-width: 100vw;
+  overflow-y: visible !important;
+}
+
+#root {
+  padding-top: var(--spacing-d-header-height);
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font-family: var(--font-family-d-body);
+  font-size: 100%;
+  font-style: inherit;
+  line-height: inherit;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.33em;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+body.dimmable.dimmed {
+  overflow-y: hidden !important;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* unset semantic-ui overreach */
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+/* Renders text off-left of the screen in a 1px square box, effectively making it invisible to sighted users but still discoverable by assistive technologies */
+.accessibility-text {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
