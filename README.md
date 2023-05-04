@@ -23,5 +23,5 @@
 ```json-server --watch db.json --port 3004```
 
 
-#NOTE:
+# NOTE:
 To reproduce the problem, set the preset to slow 3g in the "Network" tab.
